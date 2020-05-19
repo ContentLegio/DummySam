@@ -4,5 +4,3 @@ resources:
       properties:
         name: HelloWorldFunction
         alias: latest
-        currentversion: latest
-        targetversion: latest
