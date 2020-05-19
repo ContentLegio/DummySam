@@ -33,9 +33,9 @@ Metadata:
     LicenseUrl: LICENSE.txt
     ReadmeUrl: README.md
     Labels: ['dummy-sam']
-    HomePageUrl: https://github.com/petelind/dummysam
+    HomePageUrl: https://github.com/petelind/DummySam
     SemanticVersion: 0.0.1
-    SourceCodeUrl: https://github.com/petelind/dummysam
+    SourceCodeUrl: https://github.com/petelind/DummySam
 
 Outputs:
   # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function
