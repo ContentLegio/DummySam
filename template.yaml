@@ -33,7 +33,7 @@ Metadata:
     LicenseUrl: LICENSE.txt
     ReadmeUrl: README.md
     Labels: ['dummy-sam']
-    HomePageUrl: https://github.com/petelind/dummycpsam
+    HomePageUrl: https://github.com/petelind/dummysam
     SemanticVersion: 0.0.1
     SourceCodeUrl: https://github.com/petelind/dummysam
 
