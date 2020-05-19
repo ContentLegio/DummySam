@@ -28,6 +28,14 @@ Metadata:
   AWS::ServerlessRepo::Application:
     Name: dummy-sam
     Description: hello world dummy SAM app
+    Author: user1
+    SpdxLicenseId: Apache-2.0
+    LicenseUrl: LICENSE.txt
+    ReadmeUrl: README.md
+    Labels: ['dummy-sam']
+    HomePageUrl: https://github.com/petelind/dummy-sam
+    SemanticVersion: 0.0.1
+    SourceCodeUrl: https://github.com/petelind/dummy-sam
 
 Outputs:
   # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function
