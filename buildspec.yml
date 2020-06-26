@@ -6,8 +6,9 @@ phases:
   build:
     commands:
       - pip install --upgrade pip
-      - pip install pipenv --user
-      - pipenv lock --clear
+      - pip install virtualenv
+      - virtualenv ./packaging_environment
+      - source ./packaging_environment/bin/activate
       - pipenv install awscli
       - pipenv install aws-sam-cli
       - pipenv run sam package --template-file template.yaml --s3-bucket dummy-sam-artifacts --output-template-file packaged-template.yaml
