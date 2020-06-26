@@ -1,9 +1,7 @@
 version: 0.0
 Resources:
-  - mercury:
+  - DummySam-HelloWorldFunction-15UX3NKQED35B:
       type: "AWS::Lambda::Function"
       properties:
-        name: mercury
+        name: DummySam-HelloWorldFunction-15UX3NKQED35B
         alias: latest
-        currentversion: 1
-        targetversion: 2
